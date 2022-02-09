@@ -1,0 +1,46 @@
+{
+  "name": "blockoli",
+  "version": "1.0.0",
+  "description": "Brockoli is a block coding editor for Arduino.",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "SET \"NODE_ENV=develop\" && electron-forge start",
+    "package": "electron-forge package",
+    "make": "SET \"NODE_ENV=production\" && electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i33W/blockoli-forge.git"
+  },
+  "author": {
+    "url": "https://pf.kakao.com/_CBvNxb/chat",
+    "name": "BP LAB",
+    "email": "bpcode@naver.com"
+  },
+  "contributes": {
+    "name": "Hwang bomee",
+    "email": "hwangbomee@kakao.com"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "electron": "^16.0.7",
+    "electron-prompt": "^1.7.0",
+    "electron-rebuild": "^3.2.7",
+    "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^9.2.4",
+    "electron-log": "^4.4.6",
+    "electron-squirrel-startup": "^1.0.0",
+    "iconv-lite": "^0.6.3",
+    "serialport": "^9.2.8",
+    "update-electron-app": "^2.0.1"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
