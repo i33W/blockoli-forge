@@ -1,6 +1,6 @@
 {
   "name": "blockoliforge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Brockoli is a block coding editor for Arduino.",
   "main": "main/main.js",
   "scripts": {
